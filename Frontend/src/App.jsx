@@ -13,7 +13,9 @@ function App() {
   const fetchRecords = async () => {
 
     const response = await axios.get(
-      "https://breatheesgproject-production.up.railway.app/api/upload/"
+      "const response = await axios.get(
+      "https://breatheesgproject-production.up.railway.app/api/records/"
+);"
     );
 
     setRecords(response.data);
@@ -36,7 +38,10 @@ function App() {
     try {
 
       await axios.post(
+        "await axios.post(
         "https://breatheesgproject-production.up.railway.app/api/upload/",
+        formData
+);",
         formData
       );
 
