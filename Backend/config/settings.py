@@ -125,3 +125,6 @@ USE_TZ = True
 STATIC_URL = "static/"
 
 CORS_ALLOW_ALL_ORIGINS = True
+CSRF_TRUSTED_ORIGINS = [
+    "https://breathe-esg-project-gilt.vercel.app"
+]
